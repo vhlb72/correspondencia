@@ -1,0 +1,51 @@
+# Archivos de proyecto PHPRunner
+*.bak
+*.tmp
+*.log
+*.swp
+*.lock
+*.db
+*.sqlite
+*.sublime-*
+*.vscode
+
+# Archivos temporales y del sistema
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Carpetas que no deben versionarse
+output/
+templates_c/
+compiled/
+tmp/
+cache/
+logs/
+backup/
+__MACOSX/
+
+# Archivos generados automáticamente
+*.~*
+*.phpr~
+*.zip
+*.tar.gz
+*.7z
+
+# Configuración personal de entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos de sistema operativo
+.idea/
+.vscode/
+*.iml
+
+# Node/npm (si usas algún módulo en el frontend)
+node_modules/
+package-lock.json
+
+# PHPRunner específicos (si generas copias)
+project_name.old/
